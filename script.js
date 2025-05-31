@@ -1,8 +1,17 @@
  var numero = 0
 
     function Adicionar() {
-        numero = numero +1
-        console.log(numero)
+        numero++
+        mostrarNaTela()
+    }
+
+    function Diminuir() {
+        numero--
+        mostrarNaTela()
+    }
+
+    function Zerar() {
+        numero = 0
         mostrarNaTela()
     }
 
