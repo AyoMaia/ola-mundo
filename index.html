@@ -4,28 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ola mundo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-color: black;
-        border: 2px solid green;
-        height: 100vw;
-    }
-
-    h1 {
-        color: white;
-    }
-
-    .content{
-        background-color: blue;
-        padding: 10px;
-    }
-
-    .box-text{
-        background-color: purple;
-        padding: 30px;
-    }
-</style>
 <body>
     <div class="content">
         <div class="box-text">
@@ -35,21 +15,6 @@
         </div>
     </div>
 </body>
-<script>
-    var numero = 0
+<script src="/script.js"></script>
 
-    function Adicionar() {
-        numero = numero +1
-        console.log(numero)
-        mostrarNaTela()
-    }
-
-    function mostrarNaTela(){
-        const p = document.querySelector("#result")
-        p.innerHTML = numero
-    }
-
-    mostrarNaTela()    
-
-</script>
 </html>

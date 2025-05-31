@@ -1,0 +1,19 @@
+ body {
+        background-color: black;
+        border: 2px solid green;
+        height: 100vw;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .content{
+        background-color: blue;
+        padding: 10px;
+    }
+
+    .box-text{
+        background-color: purple;
+        padding: 30px;
+    }
